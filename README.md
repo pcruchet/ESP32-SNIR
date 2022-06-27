@@ -11,7 +11,7 @@ Les connectivités WiFi et Bluetooth de l’ESP32 sont toujours également acces
 Elle est programmable en C++ avec l’EDI arduino, ou un EDI plus évolué comme Visual Studio Code, NetBeans ou Qtcreator et le plug-in PlatformeIO. L’environnement MicroPython est également disponible pour développer.
 Un ensemble d’activités pratiques est également à disposition.
 
-## La carte  dispose de base les périphériques :
+## La carte  dispose de base des périphériques :
 
     • Écran OLED 128 x 64,
     • Clavier matricé 12 touches,
