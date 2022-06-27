@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.12.2, 2022-03-24T10:06:43. -->
+<!-- Written by QtCreator 4.12.2, 2022-03-25T16:03:32. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -81,13 +81,13 @@
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.0">
     <value type="bool">false</value>
     <value type="int" key="EnableQmlDebugging">0</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/USERS/PROFS/pcruchet/Documents/Annee 2021-2022/ESP32-SNIR/02 - Logiciel/01 - Afficheur OLED SSD1306Wire</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">/home/USERS/PROFS/pcruchet/Documents/Annee 2021-2022/ESP32-SNIR/02 - Logiciel/build-afficheur-Desktop_Qt_5_15_0_GCC_64bit-Debug</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/USERS/PROFS/pcruchet/Documents/Annee 2021-2022/ESP32-SNIR/02 - Logiciel/04 - TestCarte</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">/home/USERS/PROFS/pcruchet/Documents/Annee 2021-2022/ESP32-SNIR/02 - Logiciel/build-TestCarte-Desktop_Qt_5_15_0_GCC_64bit-Debug</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
-      <value type="QString" key="ProjectExplorer.ProcessStep.Arguments">-f -c qtcreator run</value>
-      <value type="QString" key="ProjectExplorer.ProcessStep.Command">platformio</value>
+      <value type="QString" key="ProjectExplorer.ProcessStep.Arguments">-f -c qtrcreator run</value>
+      <value type="QString" key="ProjectExplorer.ProcessStep.Command">pio</value>
       <value type="QString" key="ProjectExplorer.ProcessStep.WorkingDirectory">%{buildDir}</value>
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.ProcessStep</value>
      </valuemap>
@@ -99,21 +99,12 @@
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.1">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
-      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.MakeStep</value>
-      <valuelist type="QVariantList" key="Qt4ProjectManager.MakeStep.BuildTargets"/>
-      <value type="bool" key="Qt4ProjectManager.MakeStep.Clean">true</value>
-      <value type="QString" key="Qt4ProjectManager.MakeStep.MakeArguments">clean</value>
-      <value type="QString" key="Qt4ProjectManager.MakeStep.MakeCommand"></value>
-      <value type="bool" key="Qt4ProjectManager.MakeStep.OverrideMakeflags">false</value>
-     </valuemap>
-     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.1">
-      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
-      <value type="QString" key="ProjectExplorer.ProcessStep.Arguments">-f -c qtcreator run --target clean</value>
-      <value type="QString" key="ProjectExplorer.ProcessStep.Command">platformio</value>
+      <value type="QString" key="ProjectExplorer.ProcessStep.Arguments">-f -c qtrcreator run --target clean</value>
+      <value type="QString" key="ProjectExplorer.ProcessStep.Command">pio </value>
       <value type="QString" key="ProjectExplorer.ProcessStep.WorkingDirectory">%{buildDir}</value>
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.ProcessStep</value>
      </valuemap>
-     <value type="int" key="ProjectExplorer.BuildStepList.StepsCount">2</value>
+     <value type="int" key="ProjectExplorer.BuildStepList.StepsCount">1</value>
      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Clean</value>
      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Clean</value>
      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.BuildSteps.Clean</value>
@@ -130,8 +121,8 @@
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.1">
     <value type="bool">true</value>
     <value type="int" key="EnableQmlDebugging">2</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/USERS/PROFS/pcruchet/Documents/Annee 2021-2022/ESP32-SNIR/02 - Logiciel/build-afficheur-Desktop_Qt_5_15_0_GCC_64bit-Release</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">/home/USERS/PROFS/pcruchet/Documents/Annee 2021-2022/ESP32-SNIR/02 - Logiciel/build-afficheur-Desktop_Qt_5_15_0_GCC_64bit-Release</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/USERS/PROFS/pcruchet/Documents/Annee 2021-2022/ESP32-SNIR/02 - Logiciel/build-TestCarte-Desktop_Qt_5_15_0_GCC_64bit-Release</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">/home/USERS/PROFS/pcruchet/Documents/Annee 2021-2022/ESP32-SNIR/02 - Logiciel/build-TestCarte-Desktop_Qt_5_15_0_GCC_64bit-Release</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -181,8 +172,8 @@
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.2">
     <value type="bool">true</value>
     <value type="int" key="EnableQmlDebugging">0</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/USERS/PROFS/pcruchet/Documents/Annee 2021-2022/ESP32-SNIR/02 - Logiciel/build-afficheur-Desktop_Qt_5_15_0_GCC_64bit-Profile</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">/home/USERS/PROFS/pcruchet/Documents/Annee 2021-2022/ESP32-SNIR/02 - Logiciel/build-afficheur-Desktop_Qt_5_15_0_GCC_64bit-Profile</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/USERS/PROFS/pcruchet/Documents/Annee 2021-2022/ESP32-SNIR/02 - Logiciel/build-TestCarte-Desktop_Qt_5_15_0_GCC_64bit-Profile</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">/home/USERS/PROFS/pcruchet/Documents/Annee 2021-2022/ESP32-SNIR/02 - Logiciel/build-TestCarte-Desktop_Qt_5_15_0_GCC_64bit-Profile</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -235,7 +226,7 @@
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
       <value type="QString" key="ProjectExplorer.ProcessStep.Arguments">run --target upload</value>
-      <value type="QString" key="ProjectExplorer.ProcessStep.Command">platformio</value>
+      <value type="QString" key="ProjectExplorer.ProcessStep.Command">pio</value>
       <value type="QString" key="ProjectExplorer.ProcessStep.WorkingDirectory">%{buildDir}</value>
       <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.ProcessStep</value>
      </valuemap>
@@ -311,8 +302,8 @@
     </valuelist>
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/home/USERS/PROFS/pcruchet/Documents/Annee 2021-2022/ESP32-SNIR/02 - Logiciel/01 - Afficheur OLED SSD1306Wire/afficheur.pro</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">/home/USERS/PROFS/pcruchet/Documents/Annee 2021-2022/ESP32-SNIR/02 - Logiciel/01 - Afficheur OLED SSD1306Wire/afficheur.pro</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/home/USERS/PROFS/pcruchet/Documents/Annee 2021-2022/ESP32-SNIR/02 - Logiciel/04 - TestCarte/TestCarte.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">/home/USERS/PROFS/pcruchet/Documents/Annee 2021-2022/ESP32-SNIR/02 - Logiciel/04 - TestCarte/TestCarte.pro</value>
     <value type="QString" key="RunConfiguration.Arguments"></value>
     <value type="bool" key="RunConfiguration.Arguments.multi">false</value>
     <value type="QString" key="RunConfiguration.OverrideDebuggerStartup"></value>
@@ -323,7 +314,7 @@
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
     <value type="QString" key="RunConfiguration.WorkingDirectory"></value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/USERS/PROFS/pcruchet/Documents/Annee 2021-2022/ESP32-SNIR/02 - Logiciel/01 - Afficheur OLED SSD1306Wire</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/USERS/PROFS/pcruchet/Documents/Annee 2021-2022/ESP32-SNIR/02 - Logiciel/04 - TestCarte</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.1">
     <value type="QString" key="Analyzer.Perf.CallgraphMode">dwarf</value>
@@ -385,10 +376,10 @@
     </valuelist>
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
-    <value type="QString" key="ProjectExplorer.CustomExecutableRunConfiguration.Executable">echo</value>
+    <value type="QString" key="ProjectExplorer.CustomExecutableRunConfiguration.Executable">putty</value>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.CustomExecutableRunConfiguration</value>
     <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey"></value>
-    <value type="QString" key="RunConfiguration.Arguments">&quot;lancé sur la cible&quot;</value>
+    <value type="QString" key="RunConfiguration.Arguments">-load ESP32_115200</value>
     <value type="bool" key="RunConfiguration.Arguments.multi">false</value>
     <value type="QString" key="RunConfiguration.OverrideDebuggerStartup"></value>
     <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
