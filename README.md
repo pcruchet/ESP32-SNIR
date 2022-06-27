@@ -1,6 +1,6 @@
 # Maquette Pédagogique ESP32-SNIR
 
-![Carte ESP32-SNIR](/03 - Images/cartes.jpg)
+![Carte ESP32-SNIR](/03 - Images/carte.jpg)
 
 ## Description
 
