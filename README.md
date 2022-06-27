@@ -4,7 +4,7 @@
 
 ## Description
 
-Cette carte multi usage sur la base d’un ESP32, intègre directement un certains nombres de périphériques, sans avoir aucun câblage à effectuer. Elle dispose également de connecteurs externes (I2C, RS232, DEL RGB) ansi qu’un port pour branché un servo moteur et 2 relais.
+Cette carte multi usage sur la base d’un ESP32, intègre directement un certains nombres de périphériques, sans avoir aucun câblage à effectuer. Elle dispose également de connecteurs externes (I2C, RS232, DEL RGB) ansi qu’un port pour brancher un servo moteur et de 2 relais.
 
 Les connectivités WiFi et Bluetooth de l’ESP32 sont toujours également accessibles et permettent de contrôler la carte via un smartphone, une tablette  et un point d’accès WiFi.
 
