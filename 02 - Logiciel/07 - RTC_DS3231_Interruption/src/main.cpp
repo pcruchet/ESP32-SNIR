@@ -6,17 +6,21 @@
 // Librairie : pio lib -g install adafruit/RTClib
 // RTClib Library • 2.1.1 • Published on Tue Aug  9 17:19:27 2022
 // Ajouter dans platformio.ini : lib_deps = RTClib
-// Ajouter dans platformio.includes : /home/USERS/PROFS/pcruchet/.platformio/lib/RTClib/src
-// Pour un exemple plus complet voir code example DS3231_alarm.ino
+// Ajouter éventuellement dans platformio.includes : /home/USERS/PROFS/pcruchet/.platformio/lib/RTClib/src
 
 RTC_DS3231 rtc;
 const int CLOCK_INTERRUPT = 23;
+//bool alarme = false;
 
-void IRAM_ATTR onAlarme() {
-    Serial.println("Interruption générée !");
+void IRAM_ATTR onAlarme()
+{
+   // alarme = true;
 }
 
-void setup() {
+
+
+void setup()
+{
     Serial.begin(115200);
     Wire.begin();
 
@@ -36,14 +40,26 @@ void setup() {
         if(!rtc.setAlarm1(rtc.now() + TimeSpan(10),DS3231_A1_Second))
             Serial.println("Erreur l'alarme n'est pas enclenchée");
         else
+        {
             Serial.println("Une alarme apparaîtra dans 10 secondes");
+        }
     }
-
-
 }
 
-void loop() {
-    // Votre code principal ici
+void loop()
+{
+    if (rtc.alarmFired(1))
+    {
+        Serial.println("Alarme générée !!!");
+        //alarme = false;
+        rtc.clearAlarm(1);
+        if(!rtc.setAlarm1(rtc.now() + TimeSpan(10),DS3231_A1_Second))
+            Serial.println("Erreur l'alarme n'est pas enclenchée");
+        else
+        {
+            Serial.println("Une alarme apparaîtra dans 10 secondes");
+        }
+    }
 }
 
 

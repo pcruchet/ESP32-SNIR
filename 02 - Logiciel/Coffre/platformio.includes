@@ -1,6 +1,6 @@
 ./
-/home/USERS/PROFS/pcruchet/Github_pcruchet/ESP32-SNIR/02 - Logiciel/07 - RTC_DS3231_Interruption/include
-/home/USERS/PROFS/pcruchet/Github_pcruchet/ESP32-SNIR/02 - Logiciel/07 - RTC_DS3231_Interruption/src
+/home/USERS/PROFS/pcruchet/Github_pcruchet/ESP32-SNIR/02 - Logiciel/Coffre/include
+/home/USERS/PROFS/pcruchet/Github_pcruchet/ESP32-SNIR/02 - Logiciel/Coffre/src
 /home/USERS/PROFS/pcruchet/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/newlib/platform_include
 /home/USERS/PROFS/pcruchet/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include
 /home/USERS/PROFS/pcruchet/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/include/freertos/include/esp_additions/freertos
@@ -191,18 +191,9 @@
 /home/USERS/PROFS/pcruchet/.platformio/packages/framework-arduinoespressif32/variants/lolin32
 /home/USERS/PROFS/pcruchet/.platformio/lib/Adafruit BME280 Library
 /home/USERS/PROFS/pcruchet/.platformio/lib/Adafruit BusIO
-/home/USERS/PROFS/pcruchet/.platformio/lib/Adafruit GFX Library
-/home/USERS/PROFS/pcruchet/.platformio/lib/Adafruit SSD1306
-/home/USERS/PROFS/pcruchet/.platformio/lib/Adafruit SSD1306 128x64
 /home/USERS/PROFS/pcruchet/.platformio/lib/Adafruit Unified Sensor
 /home/USERS/PROFS/pcruchet/.platformio/lib/AsyncTCP/src
 /home/USERS/PROFS/pcruchet/.platformio/lib/AsyncWebServer_ESP32_ENC/src
-/home/USERS/PROFS/pcruchet/.platformio/lib/DS3231
-/home/USERS/PROFS/pcruchet/.platformio/lib/DallasTemperature
-/home/USERS/PROFS/pcruchet/.platformio/lib/ESP32Servo/src
-/home/USERS/PROFS/pcruchet/.platformio/lib/ESP8266 and ESP32 OLED driver for SSD1306 displays/src
-/home/USERS/PROFS/pcruchet/.platformio/lib/Keypad/src
-/home/USERS/PROFS/pcruchet/.platformio/lib/OneWire
 /home/USERS/PROFS/pcruchet/.platformio/lib/RTClib/src
 /home/USERS/PROFS/pcruchet/.platformio/packages/framework-arduinoespressif32/libraries/ArduinoOTA/src
 /home/USERS/PROFS/pcruchet/.platformio/packages/framework-arduinoespressif32/libraries/AsyncUDP/src
